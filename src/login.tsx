@@ -41,7 +41,8 @@ const Login = () => {
               </FormControl>
            </Box>
            <div className="link-register"> <a href="#">Esqueceu a senha?</a></div>
-        
+            <div className="link-cadastrar"> <a href="#">Cadastrar</a></div>
+
 
 
                         

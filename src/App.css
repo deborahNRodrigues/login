@@ -60,8 +60,14 @@
   margin-left: 350px;
 
 }
-.checkbox {
-margin-top: -20px;
-margin-right: 450px;
+.link-cadastrar{
+  margin-top: -20px;
+} 
+.link-cadastrar a{
+  text-decoration: none;
+  margin-right: 400px;
+
 
 }
+
+
