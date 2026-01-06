@@ -1,9 +1,8 @@
 // Importa componentes e ícones da biblioteca de UI Material-UI (@mui/material).
 import { FormControl, TextField, Typography } from "@mui/material"; // FormControl é um wrapper para campos de formulário, TextField é um campo de texto e Typography é para texto.
 import Box from '@mui/material/Box'; // Box é um componente de layout que pode ser usado para aplicar estilos CSS, como display flex.
-import LockIcon from '@mui/icons-material/Lock'; // Importa o ícone de cadeado.
 import Button from '@mui/material/Button'; // Importa o componente de botão.
-import { CheckBox } from "@mui/icons-material";
+
 
 // Define o componente funcional 'Login'. Componentes em React são funções que retornam JSX (uma sintaxe que parece HTML).
 const Login = () => {
@@ -42,8 +41,6 @@ const Login = () => {
            </Box>
            <div className="link-register"> <a href="#">Esqueceu a senha?</a></div>
             <div className="link-cadastrar"> <a href="#">Cadastrar</a></div>
-
-
 
                         
             
