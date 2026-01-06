@@ -1,8 +1,67 @@
+/* O seletor '#root' estiliza o elemento HTML que tem o id="root". 
+   Este é geralmente o elemento principal em aplicações React onde todo o aplicativo é renderizado. */
 #root {
   
-  /*margin: 0 auto;
-  padding: 0;*/
+   display: flex; /* Define o layout do elemento como flexível. */
+   flex-direction: column; /* Organiza os itens filhos em uma coluna. */
+   align-items: center; /* Centraliza os itens filhos horizontalmente. */
+   justify-content: center; /* Centraliza os itens filhos verticalmente. */
+   height: 100vh; /* Define a altura do elemento para 100% da altura da janela de visualização. */
+   
+}
+
+.icon-login {
+  /* Define a altura do ícone de login para 100 pixels. */
+   
  
+  margin-bottom: 10px;
+  background-image: url('./assets/icon-fogareu.png');
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 110px;
+ 
+
 }
 
 
+
+.titulo {
+  margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels ao título. */
+}
+.email {
+  
+  margin-bottom: 20px; /* Adiciona uma margem inferior de 15 pixels ao campo de e-mail. */
+  width: 500px; /* Define a largura do campo de e-mail para 500 pixels. */
+}
+
+.password {
+  margin-bottom: 20px; /* Adiciona uma margem inferior de 15 pixels ao campo de senha. */
+  width: 500px; /* Define a largura do campo de e-mail para 500 pixels. */
+}
+
+
+/* O seletor de classe '.btn-login' estiliza qualquer elemento que tenha a classe "btn-login". 
+   Neste código, ele está incorretamente aninhado dentro da regra #root. 
+   CSS padrão não suporta aninhamento direto como este (embora pré-processadores como SASS/LESS o façam).
+   O navegador provavelmente ignorará esta regra por causa do aninhamento inválido. */
+.form-password .btn-login {
+  
+  background-color: #cec328;
+  color: white;
+  margin-top: 20px;
+}
+.link-register{
+  margin-top: 15px;
+}
+
+.link-register a {
+  text-decoration: none;
+  margin-left: 350px;
+
+}
+.checkbox {
+margin-top: -20px;
+margin-right: 450px;
+
+}
